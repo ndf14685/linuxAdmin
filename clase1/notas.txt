@@ -1,0 +1,25 @@
+aot-get install rsyslog
+
+apt-cache search rsis*
+
+webmin ---> Herramienta para poder ver a traves de navegador web logs por ej. 
+
+
+RSYSLOG -----> CLiente que genera logs 
+
+
+/etc/init.d/rsyslog restart
+
+
+
+Configuracion de Rsyslog 
+/etc/rsyslog.conf 
+
+facility.Prioridad  DONDE_quiero_loguear
+
+Ej.:
+
+auth.info /var/log/nestor.log
+
+auth.info @@10.0.2.4
+
